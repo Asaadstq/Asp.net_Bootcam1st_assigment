@@ -1,0 +1,26 @@
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+
+  .card-hover {
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+    cursor: pointer; /* Make it look clickable */
+  }
+
+  .card-hover:hover {
+    transform: scale(1.05); /* Scales the card slightly */
+  }
+  a {
+    text-decoration: none; /* Removes underline */
+  }
+  .card img {
+    object-fit: cover; /* Ensures the image fits within the card */
+    width: 100%; /* Make the image fill the width */
+    height: 100%; /* Adjust height to fit */
+  }
+  .card-img-top {
+    height: 150px; /* Set a fixed height */
+    width: 100%;   /* Ensure the image spans the card width */
+    object-fit: cover; /* Ensures the image is proportionally resized and cropped if necessary */
+  }
